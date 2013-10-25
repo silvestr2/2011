@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="src" size="860,888" id="" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D313020736869706D616E32">
+  <children xsi:type="editmodel:ClassEditModel" name="Main" location="560,50" size="69,67" id="/Main" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="46,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="/Main#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/Main-Standard::Call->/MainMethods*/Main-Soyatec::Access->/MainMethods" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Access»" size="55,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,61" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="169,6"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="MainMethods" location="315,105" size="169,229" id="/MainMethods" runTimeClassModel="methods,classes,public_meth,param_passed,statsForOneClassRecursion(Ljava.lang.String;LClassQueue;),loadNamesToArray(Ljava.lang.String;),statsForOneClass(Ljava.lang.String;LClassQueue;),statsForSetOfClasses(Ljava.lang.String;),statsForSetOfClassesRecursion(Ljava.lang.String;),members">
+    <children xsi:type="editmodel:CompartmentEditModel" size="91,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="classes" id="/MainMethods#classes"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="members" id="/MainMethods#members"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="methods" id="/MainMethods#methods"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="param_passed" id="/MainMethods#param_passed"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="public_meth" id="/MainMethods#public_meth"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="146,90">
+      <children xsi:type="editmodel:MethodEditModel" name="loadNamesToArray" id="/MainMethods#loadNamesToArray(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="statsForOneClass" id="/MainMethods#statsForOneClass(Ljava.lang.String;LClassQueue;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="statsForOneClassRecursion" id="/MainMethods#statsForOneClassRecursion(Ljava.lang.String;LClassQueue;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="statsForSetOfClasses" id="/MainMethods#statsForSetOfClasses(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="statsForSetOfClassesRecursion" id="/MainMethods#statsForSetOfClassesRecursion(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/MainMethods-Standard::Call->/ClassStats*/MainMethods-Soyatec::Access->/ClassStats*/MainMethods-Standard::Instantiate->/ClassStats*/MainMethods-Soyatec::Import->/ClassStats" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import, Access»" size="132,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="169,174" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,54"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/MainMethods-Standard::Call->/ClassQueue*/MainMethods-Standard::Instantiate->/ClassQueue*/MainMethods-Soyatec::Import->/ClassQueue" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="100,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,42" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="103,97"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.1" name="ClassQueue" location="150,50" size="103,139" id="/ClassQueue" runTimeClassModel="pull(),add(Ljava.lang.Class;),ClassQueue(),isEmpty(),addArray([Ljava.lang.Class;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="73,90">
+      <children xsi:type="editmodel:MethodEditModel" name="ClassQueue" id="/ClassQueue#ClassQueue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="/ClassQueue#add(Ljava.lang.Class;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addArray" id="/ClassQueue#addArray([Ljava.lang.Class;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isEmpty" id="/ClassQueue#isEmpty()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="pull" id="/ClassQueue#pull()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="ClassStats" location="555,225" size="227,247" id="/ClassStats" runTimeClassModel="num_of_members,public_methods,total_param_passed,param_per_method,cl,num_of_methods,class_name,num_of_fields,referedclasses,ClassStats(Ljava.lang.Class;),getReferredClasses()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="204,162">
+      <children xsi:type="editmodel:AttributeEditModel" name="cl" id="/ClassStats#cl"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="class_name" id="/ClassStats#class_name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="num_of_fields" id="/ClassStats#num_of_fields"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="num_of_members" id="/ClassStats#num_of_members"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="num_of_methods" id="/ClassStats#num_of_methods"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="param_per_method" id="/ClassStats#param_per_method"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="public_methods" id="/ClassStats#public_methods"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="referedclasses" id="/ClassStats#referedclasses"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="total_param_passed" id="/ClassStats#total_param_passed"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,36">
+      <children xsi:type="editmodel:MethodEditModel" name="ClassStats" id="/ClassStats#ClassStats(Ljava.lang.Class;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getReferredClasses" id="/ClassStats#getReferredClasses()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" properties="wireOptions=7;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
